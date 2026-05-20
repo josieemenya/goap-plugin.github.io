@@ -1,1 +1,24 @@
-site_name: My Docs
+site_name: GOAP Plugin Documentation
+theme:
+  name: material
+  palette:
+        # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css :
+  - style/extra.css
+
+site_url: https://josieemenya.github.io/goap-plugin-docs/
+
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
