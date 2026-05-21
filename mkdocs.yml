@@ -14,11 +14,44 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/josieemenya/
+      name: Reach out to me on LinkedIn🥰 
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/josieemenya
+      name: Check out my GitHub repositories!
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
 extra_css :
   - style/extra.css
+
+use_directory_urls: false
 
 site_url: https://josieemenya.github.io/goap-plugin-docs/
 
 nav:
   - Home: index.md
+  - Installation: installation.md
   - Getting Started: getting_started.md
+  - Systems:
+    - Planner : planner.md
+    - Utility System: utility_system.md
+    - Example Controller : example_controller.md
+  - Planner Components:
+      - Actions: action.md
+      - Goals: goal.md
+  - API Reference: api_reference.md
+  - FAQ: faq.md
