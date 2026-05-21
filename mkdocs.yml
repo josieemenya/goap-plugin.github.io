@@ -46,12 +46,21 @@ nav:
   - Home: index.md
   - Installation: installation.md
   - Getting Started: getting_started.md
-  - Systems:
+  - Concepts:
     - Planner : planner.md
     - Utility System: utility_system.md
-    - Example Controller : example_controller.md
-  - Planner Components:
+  - Reference:
+      - Example Controller : example_controller.md
       - Actions: action.md
       - Goals: goal.md
   - API Reference: api_reference.md
+  - API Classes:
+      - UAction: API_ref/action_api.md
+      - UGoal: API_ref/goal_api.md
+      - UPlannerComponent: API_ref/planner_comp_api.md
+      - UtilitySystem: API_ref/utility_api.md
+      - AExampleController: API_ref/example_ct_api.md
+      - Node : API_ref/node_api.md
+      - FWorldState: API_ref/worldstate_api.md
+      - EExitSequenceType: API_ref/exit_sequence.md
   - FAQ: faq.md
