@@ -2,7 +2,7 @@
 
 ## Where to find it :
 
-On the Fab Store : coming soon.
+On the Fab Store : [here](https://fab.com/s/31277fbed2f9)
 
 On the Itch.io page : [here](https://joomen.itch.io/thegoapplugin)
 
